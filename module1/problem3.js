@@ -1,6 +1,6 @@
-function add(a, b) {
+function main(a, b) {
     let result = a + b;
     return result;
 };
-let x = add(7,3);
+let x = main(7,3);
 console.log(x)
