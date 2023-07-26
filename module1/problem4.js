@@ -4,3 +4,4 @@ function userName(input) {
 };
 let final = userName("GH");
 console.log(`Hello, ${final}! Nice to meet you.`)
+// console.log(`Hello, ${input.trim()}! Nice to meet you.`)

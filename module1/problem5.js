@@ -10,3 +10,4 @@ function main(input) {
     console.log(y)
 }
 main("hh");
+
