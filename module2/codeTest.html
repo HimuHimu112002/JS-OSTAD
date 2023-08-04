@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+
+    <button onclick="openNewTab(`https://www.google.com/search?q=english+to+bangla&oq=&aqs=chrome.0.69i59i450.35093523j0j7&sourceid=chrome&ie=UTF-8`)">OpenTab</button>
+    <button onmouseover="showAlertOnHover('mouse over done')">Mouse</button>
+    
+    <script>
+        
+        // problem ========= 1
+        function getCurrentURL () {
+            console.log(window.location.href)
+        }
+        //getCurrentURL()
+
+        
+        // problem ========= 2
+        function openNewTab(v) {
+            open(v)
+        }
+        //openNewTab()
+
+
+        // problem =========3
+        function closeCurrentTab() {
+            close()
+        }
+        //closeCurrentTab()
+
+
+        //problem ======= 4
+        function showAlert(vlaue) {
+            alert(vlaue)
+        }
+        //showAlert("Hello alert")
+
+
+        //problem ======= 5
+        function confirmAction(val) {
+            confirm(val)
+        }
+        //confirmAction("Do you want to delete")
+
+        
+        // problem ========= 6
+        function showAlertOnHover(val) {
+            console.log(val)
+        }
+        //showAlertOnHover()
+        
+        </script>
+
+</body>
+</html>
+
+
