@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <button onclick="openNewTab(`https://www.google.com/search?q=english+to+bangla&oq=&aqs=chrome.0.69i59i450.35093523j0j7&sourceid=chrome&ie=UTF-8`)">OpenTab</button>
+    <button onclick="openNewTab()">OpenTab</button>
     <button onmouseover="showAlertOnHover('mouse over done')">Mouse</button>
     
     <script>
@@ -21,7 +21,8 @@
         
         // problem ========= 2
         function openNewTab(v) {
-            open(v)
+            // open(v)
+            window.open()
         }
         //openNewTab()
 
