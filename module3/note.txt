@@ -1,0 +1,8 @@
+Note Export and import =============================
+
+1 -> jodi Export korar somoi defualt sara jodi class ba function ja amra Export korbo tar name
+dhore Export kori tahole import korar somoi same name dhore import korte hobe
+EX -> joid akti function Export kore and function name jodi hoi Main tahole import korar time same function
+name diye import korte hobe and function call korte hobe
+
+2 -> jodi Export korar time defualt dite Export kori tahole import korar time any name diye import korte parbo
