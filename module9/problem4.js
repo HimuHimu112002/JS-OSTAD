@@ -1,10 +1,4 @@
-//const size = 6;
 
-// for (let i = 0; i < numbers.length; i++) {
-    //   //const num = parseInt(prompt(`সংখ্যা ${i + 1} দিন:`));
-    //   //numbers.push(num);
-    // }
-    
 let sum = 0;
 const numbers = [30, 10, 5, 40, 60, 15];
 for (let i = 1; i < numbers.length; i++) {
@@ -13,3 +7,5 @@ for (let i = 1; i < numbers.length; i++) {
   }
 }
 console.log(sum)
+
+// array er vhitorer all small value sum 
